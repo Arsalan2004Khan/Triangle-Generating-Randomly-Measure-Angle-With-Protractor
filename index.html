@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h4 id="ht">Select Right Angle Of Given Triangle Click Right Mouse Button For Protractor</h4>
+    <canvas id="canvas" width="500" height="350" style="border:1px solid #000;"></canvas>
+    <!-- <p id="angleDisplay"></p> -->
+    <form id="angleForm">
+        <label>
+            <input type="radio" name="angleOption" value="" id="option1">
+            <span id="label1"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="angleOption" value="" id="option2">
+            <span id="label2"></span>
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="angleOption" value="" id="option3">
+            <span id="label3"></span>
+        </label>
+        <br>
+        <button type="button" onclick="checkAnswer()">Check Answer</button>
+        <button type="button" onclick="refre()" id="iBtn2">Reload</button>
+
+    </form>
+
+    <div id="iProtractor"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
